@@ -1,0 +1,41 @@
+body {
+     background-color: #ffffff;
+    text-align: center;
+}
+h2 {
+    color: #dda7ca;
+    font-family: "gunter", Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    margin: 30px;
+    background-color: #557d59;
+line-height: 1.5;
+    padding: 10px 35px;
+    border-radius: 20px;
+    display: inline-block;
+}
+.star-line {
+  border: none;
+  border-top: 2px solid #dda7ca;
+  text-align: center;
+  overflow: visible;
+  height: 0;
+  width: 80%;
+  margin: 30px auto;
+}
+
+.star-line::after {
+  content: "★";
+  background: #ffffff;
+  padding: 0 15px;
+  position: relative;
+  top: -11px;
+  color: #f1c40f;
+  font-size: 20px;
+}
+p {
+    color: #557d59;
+    font-size: 19px;
+    margin: 30px;
+}
