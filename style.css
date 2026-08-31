@@ -7,6 +7,38 @@ h1 {
 font-family: "gunter", Arial, sans-serif;
 font-weight: 400;
 font-style: normal;
+font-size: 50px;
+margin: 30px;
+background-color: #557d59;
+line-height: 1.5;
+    padding: 10px 35px;
+    border-radius: 20px;
+    display: inline-block;
+}
+.star-line {
+  border: none;
+  border-top: 2px solid #dda7ca;
+  text-align: center;
+  overflow: visible;
+  height: 0;
+  width: 80%;
+  margin: 30px auto;
+}
+
+.star-line::after {
+  content: "★";
+  background: #ffffff;
+  padding: 0 15px;
+  position: relative;
+  top: -11px;
+  color: #f1c40f;
+  font-size: 20px;
+}
+h2 {
+    color: #dda7ca;
+font-family: "gunter", Arial, sans-serif;
+font-weight: 400;
+font-style: normal;
 font-size: 40px;
 margin: 30px;
 background-color: #557d59;
@@ -39,7 +71,7 @@ h2 {
 font-family: "gunter", Arial, sans-serif;
 font-weight: 400;
 font-style: normal;
-font-size: 30px;
+font-size: 40px;
 margin: 30px;
 background-color: #557d59;
 line-height: 1.5;
@@ -47,46 +79,18 @@ line-height: 1.5;
     border-radius: 20px;
     display: inline-block;
 }
-.star-line {
-  border: none;
-  border-top: 2px solid #dda7ca;
-  text-align: center;
-  overflow: visible;
-  height: 0;
-  width: 80%;
-  margin: 30px auto;
-}
-
-.star-line::after {
-  content: "★";
-  background: #ffffff;
-  padding: 0 15px;
-  position: relative;
-  top: -11px;
-  color: #f1c40f;
-  font-size: 20px;
-}
-h2 {
-    color: #dda7ca;
-font-family: "gunter", Arial, sans-serif;
-font-weight: 400;
-font-style: normal;
-font-size: 30px;
-margin: 30px;
-background-color: #557d59;
-line-height: 1.5;
-    padding: 10px 35px;
-    border-radius: 20px;
-    display: inline-block;
+.margin{
+    margin-left: 60px;
+    margin-right: 60px;
 }
 p {
     color: #557d59;
-    font-size: 19px;
+    font-size: 20px;
     margin: 30px;
 }
 a{
     margin: 30px;
-    font-size: 19px;
+    font-size: 20px;
 }
 *{
             margin: 0;
@@ -100,6 +104,7 @@ a{
         .nav-list {
             list-style-type: none;
             display: flex;
+            justify-content: center;
         }
         .nav-list a {
             display: block;
@@ -112,3 +117,25 @@ a{
             background-color: #557d59;
             color: #fff;
         }
+@media screen and (width < 600px) {
+    html {
+        :root {
+    --font-size-h1: clamp(1rem, 5rem + 1.5vw, 10rem);
+    --font-size-h2: clamp(1rem, 3rem + 1.5vw, 5rem);
+    --font-size-h3: clamp(1rem, 2rem + 1.5vw, 3rem);
+    --font-size-p: clamp(1rem, 1rem + 1vw, 1.5rem);
+}
+h1 {
+    font-size: var(--font-size-h1);
+}
+h2 {
+    font-size: var(--font-size-h2);
+}
+h3 {
+    font-size: var(--font-size-h3);
+}
+p {
+    font-size: var(--font-size-p);
+}
+    }
+}
