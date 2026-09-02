@@ -84,6 +84,7 @@ line-height: 1.5;
     margin-right: 60px;
 }
 p {
+    font-family: "fiona";
     color: #557d59;
     font-size: 20px;
     margin: 30px;
@@ -126,16 +127,40 @@ a{
     --font-size-p: clamp(1rem, 1rem + 1vw, 1.5rem);
 }
 h1 {
-    font-size: var(--font-size-h1);
+    font-size: 30px;
+    padding: 10px 20px;
 }
+.navbar {
+            background-color: #dda7ca;
+            font-family: "gunter", Arial, sans-serif;
+        }
+        .nav-list {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+        }
+        .nav-list a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .nav-list a:hover {
+            background-color: #557d59;
+            color: #fff;
+        }
 h2 {
-    font-size: var(--font-size-h2);
+    font-size: 20px;
 }
 h3 {
-    font-size: var(--font-size-h3);
+    font-size: 10px;
 }
 p {
-    font-size: var(--font-size-p);
+    font-size: 10px;
+}
+a {
+    font-size: 10px;
 }
     }
 }

@@ -35,7 +35,8 @@ line-height: 1.5;
   font-size: 20px;
 }
 p {
+    font-family: "fiona";
     color: #557d59;
-    font-size: 19px;
+    font-size: 20px;
     margin: 30px;
 }
