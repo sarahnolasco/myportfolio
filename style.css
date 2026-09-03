@@ -3,13 +3,13 @@ body {
     text-align: center;
 }
 h1 {
-    color: #dda7ca;
+    color: #ece4c1;
 font-family: "gunter", Arial, sans-serif;
 font-weight: 400;
 font-style: normal;
-font-size: 50px;
+font-size: 40px;
 margin: 30px;
-background-color: #557d59;
+background-color: #56723c;
 line-height: 1.5;
     padding: 10px 35px;
     border-radius: 20px;
@@ -17,7 +17,7 @@ line-height: 1.5;
 }
 .star-line {
   border: none;
-  border-top: 2px solid #dda7ca;
+  border-top: 2px solid #ece4c1;
   text-align: center;
   overflow: visible;
   height: 0;
@@ -35,13 +35,13 @@ line-height: 1.5;
   font-size: 20px;
 }
 h2 {
-    color: #dda7ca;
+    color: #ece4c1;
 font-family: "gunter", Arial, sans-serif;
 font-weight: 400;
 font-style: normal;
-font-size: 40px;
+font-size: 25px;
 margin: 30px;
-background-color: #557d59;
+background-color: #56723c;
 line-height: 1.5;
     padding: 10px 35px;
     border-radius: 20px;
@@ -49,7 +49,7 @@ line-height: 1.5;
 }
 .star-line {
   border: none;
-  border-top: 2px solid #dda7ca;
+  border-top: 2px solid #ece4c1;
   text-align: center;
   overflow: visible;
   height: 0;
@@ -67,13 +67,13 @@ line-height: 1.5;
   font-size: 20px;
 }
 h2 {
-    color: #dda7ca;
+    color: #ece4c1;
 font-family: "gunter", Arial, sans-serif;
 font-weight: 400;
 font-style: normal;
-font-size: 40px;
+font-size: 25px;
 margin: 30px;
-background-color: #557d59;
+background-color: #56723c;
 line-height: 1.5;
     padding: 10px 35px;
     border-radius: 20px;
@@ -85,7 +85,7 @@ line-height: 1.5;
 }
 p {
     font-family: "fiona";
-    color: #557d59;
+    color: #56723c;
     font-size: 20px;
     margin: 30px;
 }
@@ -99,7 +99,7 @@ a{
             box-sizing: border-box;
         }
         .navbar {
-            background-color: #dda7ca;
+            background-color: #ece4c1;
             font-family: "gunter", Arial, sans-serif;
         }
         .nav-list {
@@ -109,14 +109,14 @@ a{
         }
         .nav-list a {
             display: block;
-            color: white;
+            color: #56723c;
             text-align: center;
             padding: 14px 20px;
             text-decoration: none;
         }
         .nav-list a:hover {
-            background-color: #557d59;
-            color: #fff;
+            background-color: #56723c;
+            color: #ece4c1;
         }
 @media screen and (max-width: 600px) {
 
@@ -127,13 +127,17 @@ a{
         --font-size-p: clamp(1rem, 3vw, 1.5rem);
     }
 
+    a{
+        margin: 0;
+    }
+
     h1 {
         font-size: 30px;
         padding: 10px 20px;
     }
 
     .navbar {
-        background-color: #dda7ca;
+        background-color: #ece4c1;
         font-family: "gunter", Arial, sans-serif;
     }
 
@@ -148,7 +152,7 @@ a{
 
     .nav-list a {
         display: block;
-        color: white;
+        color: #56723c;
         text-align: center;
         padding: 14px 20px;
         text-decoration: none;
@@ -156,8 +160,8 @@ a{
     }
 
     .nav-list a:hover {
-        background-color: #557d59;
-        color: #fff;
+        background-color: #56723c;
+        color: #ece4c1;
     }
 
     h2 {
