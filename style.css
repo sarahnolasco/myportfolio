@@ -9,7 +9,7 @@ font-weight: 400;
 font-style: normal;
 font-size: 40px;
 margin: 30px;
-background-color: #56723c;
+background-color: #3C4C29;
 line-height: 1.5;
     padding: 10px 35px;
     border-radius: 20px;
@@ -41,7 +41,7 @@ font-weight: 400;
 font-style: normal;
 font-size: 25px;
 margin: 30px;
-background-color: #56723c;
+background-color: #3C4C29;
 line-height: 1.5;
     padding: 10px 35px;
     border-radius: 20px;
@@ -73,7 +73,7 @@ font-weight: 400;
 font-style: normal;
 font-size: 25px;
 margin: 30px;
-background-color: #56723c;
+background-color: #3C4C29;
 line-height: 1.5;
     padding: 10px 35px;
     border-radius: 20px;
@@ -85,7 +85,7 @@ line-height: 1.5;
 }
 p {
     font-family: "fiona";
-    color: #56723c;
+    color: #3C4C29;
     font-size: 20px;
     margin: 30px;
 }
@@ -109,13 +109,13 @@ a{
         }
         .nav-list a {
             display: block;
-            color: #56723c;
+            color: #3C4C29;
             text-align: center;
             padding: 14px 20px;
             text-decoration: none;
         }
         .nav-list a:hover {
-            background-color: #56723c;
+            background-color: #3C4C29;
             color: #ece4c1;
         }
 @media screen and (max-width: 600px) {
@@ -152,7 +152,7 @@ a{
 
     .nav-list a {
         display: block;
-        color: #56723c;
+        color: #3C4C29;
         text-align: center;
         padding: 14px 20px;
         text-decoration: none;
@@ -160,7 +160,7 @@ a{
     }
 
     .nav-list a:hover {
-        background-color: #56723c;
+        background-color: #3C4C29;
         color: #ece4c1;
     }
 
